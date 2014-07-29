@@ -16,6 +16,7 @@
         </property>
         <property name="parentId">
             <column name="parentId" sql-type="int"/>
+
         </property>
         <property name="orderNo">
             <column name="orderNo" sql-type="int"/>

@@ -14,6 +14,7 @@ public class TNavbarModel {
     private Integer parentId;
     private Integer orderNo;
 
+
     @Id
     @Column(name = "Id", nullable = false, insertable = true, updatable = true)
     public int getId() {

@@ -5,11 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="02c8078f-7369-46ce-9c55-4a4104ad7abe" name="Default" comment="项目维护|修正model类文件名错误、修正Configuration模块bean命名规范问题">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/model/TFuncIntroductionDto.hbm.xml" afterPath="$PROJECT_DIR$/src/main/java/model/TFuncIntroductionDto.hbm.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/model/TFuncIntroductionDto.java" afterPath="$PROJECT_DIR$/src/main/java/model/TFuncIntroductionDto.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/model/TFuncIntroductionModel.hbm.xml" afterPath="$PROJECT_DIR$/src/main/java/model/TFuncIntroductionModel.hbm.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/model/TFuncIntroductionModel.java" afterPath="$PROJECT_DIR$/src/main/java/model/TFuncIntroductionModel.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="9e130f5f-a8cd-463d-9eef-43fb91ffd4a5" name="Rejected commit: Default" comment="更新测试" />
     <list id="dc92e8b7-36cb-4d2d-9e51-8fc32d44e240" name="Failed commit: Default" comment="项目校正v1.0" />
     <list id="482e42ca-5885-4c76-be5a-343ab9658b0a" name="Failed commit: Default (2)" comment="项目校正v1.3" />
+    <list id="9f4abee1-44de-49cd-a766-7f6604566b29" name="Failed commit: Default (3)" comment="修正model类文件名错误">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/model/TNavbarModel.hbm.xml" afterPath="$PROJECT_DIR$/src/main/java/model/TNavbarModel.hbm.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/model/TNavbarModel.java" afterPath="$PROJECT_DIR$/src/main/java/model/TNavbarModel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/model/TSliderImgModel.hbm.xml" afterPath="$PROJECT_DIR$/src/main/java/model/TSliderImgModel.hbm.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/model/TSliderImgModel.java" afterPath="$PROJECT_DIR$/src/main/java/model/TSliderImgModel.java" />
+    </list>
     <ignored path="vdomain.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -54,14 +64,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/model/TNavbarModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/service/TestService.java" />
-        <option value="$PROJECT_DIR$/web/resources/css/common/common.css" />
-        <option value="$PROJECT_DIR$/web/resources/js/common/header.js" />
-        <option value="$PROJECT_DIR$/web/resources/css/bootstrap/css/bootstrap.css" />
-        <option value="$PROJECT_DIR$/web/resources/css/common/slider/camera.css" />
-        <option value="$PROJECT_DIR$/web/resources/js/common/slider/camera.js" />
-        <option value="$PROJECT_DIR$/web/resources/js/common/productShowSlider.js" />
         <option value="$PROJECT_DIR$/web/resources/js/common/company_mates.js" />
         <option value="$PROJECT_DIR$/src/main/java/controller/TestController.java" />
         <option value="$PROJECT_DIR$/web/resources/css/common/footer.css" />
@@ -105,6 +107,14 @@
         <option value="$PROJECT_DIR$/ConfigurationModule/src/main/java/configuration/service/CTSliderImgService.java" />
         <option value="$PROJECT_DIR$/ConfigurationModule/src/main/java/configuration/controller/ConfigController.java" />
         <option value="$PROJECT_DIR$/ConfigurationModule/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/model/TSliderImgModel.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/model/TSliderImgModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/TNavbarModel.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/model/TNavbarModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/TFuncIntroductionModel.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/model/TFuncIntroductionModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/TFuncIntroductionDto.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/model/TFuncIntroductionDto.java" />
       </list>
     </option>
   </component>
@@ -365,6 +375,7 @@
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/model" />
     <property name="JPA.DatabaseSchemaImportDialog" value="774d2660-e5cc-44b1-bf23-dd8ed0958f14" />
     <property name="FullScreen" value="false" />
+    <property name="ChangesBrowser.SHOW_FLATTEN" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -771,7 +782,7 @@
       <workItem from="1406599689140" duration="3708000" />
       <workItem from="1406605346498" duration="594000" />
       <workItem from="1406615703858" duration="2063000" />
-      <workItem from="1406617791309" duration="1099000" />
+      <workItem from="1406617791309" duration="2022000" />
     </task>
     <task id="LOCAL-00001" summary="更新测试">
       <created>1405645898965</created>
@@ -797,11 +808,15 @@
       <created>1406598094078</created>
       <updated>1406598094078</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="项目维护|修正model类文件名错误、修正Configuration模块bean命名规范问题">
+      <created>1406618904326</created>
+      <updated>1406618904326</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119496000" />
+    <option name="totallyTimeSpent" value="120419000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -840,9 +855,10 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.7910828" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40712467" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40764332" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32771823" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32738853" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40764332" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21428572" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -855,7 +871,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.10469799" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40764332" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -915,7 +930,8 @@
     <MESSAGE value="项目校正v1.1" />
     <MESSAGE value="项目校正v1.3" />
     <MESSAGE value="项目维护|修正model类文件名错误、修正Configuration模块bean命名规范问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="项目维护|修正model类文件名错误、修正Configuration模块bean命名规范问题" />
+    <MESSAGE value="修正model类文件名错误" />
+    <option name="LAST_COMMIT_MESSAGE" value="修正model类文件名错误" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -929,41 +945,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ConfigurationModule/web/resources/js/jQuery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3990" max-vertical-offset="182229">
-          <caret line="131" column="45" selection-start-line="131" selection-start-column="45" selection-end-line="131" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ConfigurationModule/web/resources/js/responsive-nav.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.970822" vertical-offset="6397" max-vertical-offset="9576">
-          <caret line="119" column="58" selection-start-line="119" selection-start-column="58" selection-end-line="119" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ConfigurationModule/web/resources/js/responsive-nav.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="114">
-          <caret line="0" column="55" selection-start-line="0" selection-start-column="55" selection-end-line="0" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ConfigurationModule/web/WEB-INF/jsp/newFunc.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1045" max-vertical-offset="1634">
-          <caret line="55" column="5" selection-start-line="52" selection-start-column="4" selection-end-line="55" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ConfigurationModule/web/WEB-INF/jsp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="1463">
-          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ConfigurationModule/web/WEB-INF/jsp/updateFunc.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.020057306" vertical-offset="1000" max-vertical-offset="1349">
@@ -1007,21 +988,6 @@
         <state vertical-scroll-proportion="0.39583334" vertical-offset="0" max-vertical-offset="624">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/TSliderImgModel.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/TSliderImgModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4871795" vertical-offset="0" max-vertical-offset="1482">
-          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -1101,6 +1067,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7063492" vertical-offset="449" max-vertical-offset="950">
           <caret line="44" column="56" selection-start-line="44" selection-start-column="56" selection-end-line="44" selection-end-column="56" />
+          <folding>
+            <element signature="e#1628#1629#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1195,24 +1164,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/TFuncIntroductionDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="26" max-vertical-offset="1482">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/TFuncIntroductionModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="33" max-vertical-offset="2888">
-          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/model/TSliderImgModel.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="551">
           <caret line="20" column="72" selection-start-line="20" selection-start-column="72" selection-end-line="20" selection-end-column="72" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1305,6 +1261,78 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.54359674" vertical-offset="0" max-vertical-offset="1178">
           <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="26619">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/TSliderImgModel.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/TSliderImgModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="1501">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/TNavbarModel.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/TNavbarModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="5" max-vertical-offset="1501">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/TFuncIntroductionModel.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1026">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/TFuncIntroductionModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="33" max-vertical-offset="2907">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/TFuncIntroductionDto.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/TFuncIntroductionDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19154558" vertical-offset="311" max-vertical-offset="1501">
+          <caret line="28" column="95" selection-start-line="28" selection-start-column="95" selection-end-line="28" selection-end-column="95" />
           <folding />
         </state>
       </provider>

@@ -21,4 +21,5 @@
             <column name="TARGET_URL" sql-type="varchar" length="1000"/>
         </property>
     </class>
+
 </hibernate-mapping>

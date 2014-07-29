@@ -22,6 +22,7 @@ public class TFuncIntroductionModel {
     private String funcIconUrl;
     private Integer funcParentId;
 
+
     @Id
     @Column(name = "ID", nullable = false, insertable = true, updatable = true)
     public int getId() {

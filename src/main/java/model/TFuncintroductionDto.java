@@ -14,6 +14,7 @@ public class TFuncIntroductionDto {
     private String funcGuideUrl;
     private String funcIconUrl;
 
+
     @Id
     @Column(name = "ID", nullable = false, insertable = true, updatable = true)
     public int getId() {

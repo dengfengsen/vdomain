@@ -21,4 +21,5 @@
             <column name="FUNC_ICON_URL" sql-type="varchar" length="500"/>
         </property>
     </class>
+
 </hibernate-mapping>

@@ -11,6 +11,7 @@
         <property name="funcName">
             <column name="FUNC_NAME" sql-type="varchar" length="70"/>
         </property>
+
         <property name="funcTitle">
             <column name="FUNC_TITLE" sql-type="varchar" length="70"/>
         </property>

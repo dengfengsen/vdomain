@@ -24,6 +24,7 @@ public class TSliderImgModel {
         this.id = id;
     }
 
+
     @Basic
     @Column(name = "SLIDER_FLAG", nullable = true, insertable = true, updatable = true, length = 40)
     public String getSliderFlag() {
